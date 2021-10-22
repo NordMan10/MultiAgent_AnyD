@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="AGENT_V5" build="1157" objcount="1608" litcount="462901" DIM="false">
+<mvBaseX name="AGENT_V5" build="1164" objcount="1608" litcount="462901" DIM="false">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">agent_v5</d_Attr>
@@ -1834,7 +1834,7 @@
                     <d_AttrObj name="IL" oid="-581"/>
                   </d_Obj>
                     <d_Obj oid="65" class="TActiveDynObjectClass" classID="9" classID2="3">
-                      <d_Attr name="Name">Система_управления</d_Attr>
+                      <d_Attr name="Name">ControlSystem</d_Attr>
                       <d_Attr name="OM">0x00000004</d_Attr>
                       <d_Attr name="Stereotype">HCGO&&P</d_Attr>
                       <d_AttrObj name="IL" oid="-324"/>
@@ -1937,8 +1937,8 @@
                             <d_Attr name="VT" valueI="17">signal</d_Attr>
                           </d_Obj>
                         <d_Obj oid="297" class="TVariable" classID="9" classID2="15">
-                          <d_Attr name="Name">Обнаружить</d_Attr>
-                          <d_Attr name="Stereotype">AO&&&&P</d_Attr>
+                          <d_Attr name="Name">Find</d_Attr>
+                          <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                           <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                           <d_AttrRef name="VTdef" oid="-1048"/>
                           <d_Attr name="Side">2</d_Attr>
@@ -1951,8 +1951,8 @@
                             </d_Attr>
                           </d_Obj>
                             <d_Obj oid="318" class="TSParam" classID="9" classID2="25">
-                              <d_Attr name="Name">Что</d_Attr>
-                              <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                              <d_Attr name="Name">What</d_Attr>
+                              <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                               <d_Attr name="ExpType" valueI="12">string</d_Attr>
                               <d_AttrRef name="Value" oid="-446"/>
                               <d_AttrRef name="SI" oid="297"/>
@@ -1961,7 +1961,7 @@
                                 <d_Attr name="VT" valueI="12">string</d_Attr>
                               </d_Obj>
                         <d_Obj oid="153" class="TVariable" classID="9" classID2="15">
-                          <d_Attr name="Name">Вперед</d_Attr>
+                          <d_Attr name="Name">Forward</d_Attr>
                           <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                           <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                           <d_AttrRef name="VTdef" oid="-1029"/>
@@ -1977,8 +1977,8 @@
                             </d_Attr>
                           </d_Obj>
                             <d_Obj oid="476" class="TSParam" classID="9" classID2="25">
-                              <d_Attr name="Name">Куда</d_Attr>
-                              <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                              <d_Attr name="Name">Where</d_Attr>
+                              <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                               <d_Attr name="ExpType" valueI="12">string</d_Attr>
                               <d_AttrRef name="Value" oid="-1638"/>
                               <d_AttrRef name="SI" oid="153"/>
@@ -1987,7 +1987,7 @@
                                 <d_Attr name="VT" valueI="12">string</d_Attr>
                               </d_Obj>
                             <d_Obj oid="641" class="TSParam" classID="9" classID2="25">
-                              <d_Attr name="Name">Координата_X</d_Attr>
+                              <d_Attr name="Name">X</d_Attr>
                               <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                               <d_Attr name="ExpType" valueI="4">double</d_Attr>
                               <d_AttrRef name="Value" oid="-7253"/>
@@ -1998,7 +1998,7 @@
                                 <d_Attr name="S">0</d_Attr>
                               </d_Obj>
                             <d_Obj oid="642" class="TSParam" classID="9" classID2="25">
-                              <d_Attr name="Name">Координата_Y</d_Attr>
+                              <d_Attr name="Name">Y</d_Attr>
                               <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                               <d_Attr name="ExpType" valueI="4">double</d_Attr>
                               <d_AttrRef name="Value" oid="-7252"/>
@@ -2131,7 +2131,7 @@
                                 <d_Attr name="S">0</d_Attr>
                               </d_Obj>
                         <d_Obj oid="120" class="TVariable" classID="9" classID2="15">
-                          <d_Attr name="Name">Действовать</d_Attr>
+                          <d_Attr name="Name">Act</d_Attr>
                           <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                           <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                           <d_AttrRef name="VTdef" oid="-590"/>
@@ -2146,8 +2146,8 @@
                             </d_Attr>
                           </d_Obj>
                             <d_Obj oid="453" class="TSParam" classID="9" classID2="25">
-                              <d_Attr name="Name">Что_сделать</d_Attr>
-                              <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                              <d_Attr name="Name">WhatToDo</d_Attr>
+                              <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                               <d_Attr name="ExpType" valueI="12">string</d_Attr>
                               <d_AttrRef name="Value" oid="-1680"/>
                               <d_AttrRef name="SI" oid="120"/>
@@ -2156,7 +2156,7 @@
                                 <d_Attr name="VT" valueI="12">string</d_Attr>
                               </d_Obj>
                             <d_Obj oid="1155" class="TSParam" classID="9" classID2="25">
-                              <d_Attr name="Name">Кому</d_Attr>
+                              <d_Attr name="Name">Who</d_Attr>
                               <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                               <d_Attr name="ExpType" valueI="12">string</d_Attr>
                               <d_AttrRef name="Value" oid="-9870"/>
@@ -2332,7 +2332,7 @@
                                 <d_Attr name="S">0</d_Attr>
                               </d_Obj>
                         <d_Obj oid="798" class="TVariable" classID="9" classID2="15">
-                          <d_Attr name="Name">Запрос_положения</d_Attr>
+                          <d_Attr name="Name">LocationRequest</d_Attr>
                           <d_Attr name="Stereotype">AO&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                           <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                           <d_AttrRef name="VTdef" oid="-10895"/>
@@ -2803,17 +2803,18 @@
                           <d_Ref oid="915"/>
                         </d_Obj>
                           <d_Obj oid="265" class="TDevInst" classID="9" classID2="13">
-                            <d_Attr name="Name">Рецепт_потребление_1</d_Attr>
+                            <d_Attr name="Name">Recipe_Consuming_1</d_Attr>
                             <d_Attr name="Stereotype">&&&&&&&</d_Attr>
                             <d_Attr name="UID">25</d_Attr>
-                            <d_Attr name="nameY">-20</d_Attr>
+                            <d_Attr name="nameX">-4</d_Attr>
+                            <d_Attr name="nameY">-17</d_Attr>
                             <d_AttrRef name="C" oid="55"/>
                             <d_AttrObj name="PL" oid="-963"/>
                             <d_AttrObj name="EI" oid="-964"/>
                             <d_AttrObj name="IL" oid="-965"/>
                           </d_Obj>
                             <d_Obj oid="55" class="TActiveDynObjectClass" classID="9" classID2="3">
-                              <d_Attr name="Name">Рецепт_потребление</d_Attr>
+                              <d_Attr name="Name">Recipe_Consuming</d_Attr>
                               <d_Attr name="OM">0x00000004</d_Attr>
                               <d_Attr name="Stereotype">HCGO&&P</d_Attr>
                               <d_AttrObj name="IL" oid="-264"/>
@@ -2836,13 +2837,12 @@
                                 <d_Ref oid="954"/>
                                 <d_Ref oid="1296"/>
                                 <d_Ref oid="1262"/>
-                                <d_Ref oid="1146"/>
                                 <d_Ref oid="1105"/>
                                 <d_Ref oid="1020"/>
                                 <d_Ref oid="1465"/>
                               </d_Obj>
                                 <d_Obj oid="272" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Потреблять</d_Attr>
+                                  <d_Attr name="Name">ConsumeEnergy</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-980"/>
@@ -2856,7 +2856,7 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="324" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Количество_энергии</d_Attr>
+                                      <d_Attr name="Name">EnergyAmount</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-10176"/>
@@ -2867,7 +2867,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="275" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_общение</d_Attr>
+                                  <d_Attr name="Name">Communication</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-986"/>
@@ -2882,7 +2882,7 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="813" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_X</d_Attr>
+                                      <d_Attr name="Name">X</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-11712"/>
@@ -2893,7 +2893,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="812" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_Y</d_Attr>
+                                      <d_Attr name="Name">Y</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-11711"/>
@@ -2904,7 +2904,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="807" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Запрос_положения</d_Attr>
+                                  <d_Attr name="Name">LocationRequest</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-11185"/>
@@ -2915,7 +2915,7 @@
                                     <d_Attr name="VT" valueI="17">signal</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="806" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Ответ_на_запрос_положения</d_Attr>
+                                  <d_Attr name="Name">AnswerToLocationRequest</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-11065"/>
@@ -2977,7 +2977,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="1296" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Роль</d_Attr>
+                                  <d_Attr name="Name">Role</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                   <d_AttrRef name="Value" oid="-7556"/>
@@ -2988,7 +2988,7 @@
                                     <d_Attr name="VT" valueI="12">string</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="1262" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_Помощь_Сам</d_Attr>
+                                  <d_Attr name="Name">HelpYourself</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="nameY">-1</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
@@ -2999,35 +2999,8 @@
                                   <d_Obj oid="-10362" class="TTypeDef" classID="16">
                                     <d_Attr name="VT" valueI="17">signal</d_Attr>
                                   </d_Obj>
-                                <d_Obj oid="1146" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Пополнить_энергию_самостоятельно</d_Attr>
-                                  <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
-                                  <d_Attr name="nameX">-192</d_Attr>
-                                  <d_Attr name="nameY">-1</d_Attr>
-                                  <d_Attr name="ExpType" valueI="17">signal</d_Attr>
-                                  <d_AttrRef name="VTdef" oid="-9417"/>
-                                  <d_Attr name="Side">4</d_Attr>
-                                  <d_Attr name="Disp">0.75</d_Attr>
-                                </d_Obj>
-                                  <d_Obj oid="-9417" class="TTypeDef" classID="16">
-                                    <d_Attr name="VT" valueI="17">signal</d_Attr>
-                                    <d_Attr name="dXL">
-                                      <d_Ref oid="1145"/>
-                                    </d_Attr>
-                                  </d_Obj>
-                                    <d_Obj oid="1145" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Количество</d_Attr>
-                                      <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
-                                      <d_Attr name="ExpType" valueI="4">double</d_Attr>
-                                      <d_AttrRef name="Value" oid="-8052"/>
-                                      <d_AttrRef name="SI" oid="1146"/>
-                                    </d_Obj>
-                                      <d_Obj oid="-8052" class="TLiteral" classID="18" classID2="2">
-                                        <d_Attr name="VT" valueI="6">byte</d_Attr>
-                                        <d_Attr name="S">0</d_Attr>
-                                      </d_Obj>
                                 <d_Obj oid="1105" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Низкий_уровень_заряда</d_Attr>
+                                  <d_Attr name="Name">PowerIsLow</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-8024"/>
@@ -3038,7 +3011,7 @@
                                     <d_Attr name="VT" valueI="17">signal</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="1020" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Состояние_Р_помощь</d_Attr>
+                                  <d_Attr name="Name">State_Help</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                   <d_AttrRef name="Value" oid="-8736"/>
@@ -3753,8 +3726,8 @@
                                         <d_Attr name="VT" valueI="12">string</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="298" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Обнаружить</d_Attr>
-                                  <d_Attr name="Stereotype">AO&&&&P</d_Attr>
+                                  <d_Attr name="Name">Find</d_Attr>
+                                  <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-1050"/>
                                   <d_Attr name="Side">2</d_Attr>
@@ -3767,8 +3740,8 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="319" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Что</d_Attr>
-                                      <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                                      <d_Attr name="Name">What</d_Attr>
+                                      <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-436"/>
                                       <d_AttrRef name="SI" oid="298"/>
@@ -4244,16 +4217,17 @@
                                     <d_AttrObj name="EI" oid="-1926"/>
                                   </d_Obj>
                                     <d_Obj oid="-1928" class="d_List" classID="7">
-                                      <d_Ref oid="416"/>
+                                      <d_Ref oid="1470"/>
                                     </d_Obj>
-                                      <d_Obj oid="416" class="TSendStm" classID="9" classID2="52">
+                                      <d_Obj oid="1470" class="TSpecSendStm" classID="9" classID2="56">
                                         <d_AttrRef name="S" oid="298"/>
-                                        <d_AttrObj name="APL" oid="-1906"/>
+                                        <d_AttrObj name="APL" oid="-447039"/>
+                                        <d_Attr name="Kind">B</d_Attr>
                                       </d_Obj>
-                                        <d_Obj oid="-1906" class="d_List" classID="7">
-                                          <d_Ref oid="-1907"/>
+                                        <d_Obj oid="-447039" class="d_List" classID="7">
+                                          <d_Ref oid="-447040"/>
                                         </d_Obj>
-                                          <d_Obj oid="-1907" class="TLiteral" classID="18" classID2="2">
+                                          <d_Obj oid="-447040" class="TLiteral" classID="18" classID2="2">
                                             <d_Attr name="VT" valueI="12">string</d_Attr>
                                             <d_Attr name="S">Энергия</d_Attr>
                                           </d_Obj>
@@ -4318,16 +4292,17 @@
                                     <d_AttrObj name="EI" oid="-792"/>
                                   </d_Obj>
                                     <d_Obj oid="-794" class="d_List" classID="7">
-                                      <d_Ref oid="448"/>
+                                      <d_Ref oid="1329"/>
                                     </d_Obj>
-                                      <d_Obj oid="448" class="TSendStm" classID="9" classID2="52">
+                                      <d_Obj oid="1329" class="TSpecSendStm" classID="9" classID2="56">
                                         <d_AttrRef name="S" oid="298"/>
-                                        <d_AttrObj name="APL" oid="-782"/>
+                                        <d_AttrObj name="APL" oid="-447037"/>
+                                        <d_Attr name="Kind">B</d_Attr>
                                       </d_Obj>
-                                        <d_Obj oid="-782" class="d_List" classID="7">
-                                          <d_Ref oid="-783"/>
+                                        <d_Obj oid="-447037" class="d_List" classID="7">
+                                          <d_Ref oid="-447038"/>
                                         </d_Obj>
-                                          <d_Obj oid="-783" class="TLiteral" classID="18" classID2="2">
+                                          <d_Obj oid="-447038" class="TLiteral" classID="18" classID2="2">
                                             <d_Attr name="VT" valueI="12">string</d_Attr>
                                             <d_Attr name="S">Агент</d_Attr>
                                           </d_Obj>
@@ -4352,16 +4327,17 @@
                                     <d_AttrObj name="EI" oid="-10033"/>
                                   </d_Obj>
                                     <d_Obj oid="-10040" class="d_List" classID="7">
-                                      <d_Ref oid="633"/>
+                                      <d_Ref oid="1327"/>
                                     </d_Obj>
-                                      <d_Obj oid="633" class="TSendStm" classID="9" classID2="52">
+                                      <d_Obj oid="1327" class="TSpecSendStm" classID="9" classID2="56">
                                         <d_AttrRef name="S" oid="298"/>
-                                        <d_AttrObj name="APL" oid="-9280"/>
+                                        <d_AttrObj name="APL" oid="-447035"/>
+                                        <d_Attr name="Kind">B</d_Attr>
                                       </d_Obj>
-                                        <d_Obj oid="-9280" class="d_List" classID="7">
-                                          <d_Ref oid="-9281"/>
+                                        <d_Obj oid="-447035" class="d_List" classID="7">
+                                          <d_Ref oid="-447036"/>
                                         </d_Obj>
-                                          <d_Obj oid="-9281" class="TLiteral" classID="18" classID2="2">
+                                          <d_Obj oid="-447036" class="TLiteral" classID="18" classID2="2">
                                             <d_Attr name="VT" valueI="12">string</d_Attr>
                                             <d_Attr name="S">Энергоноситель&nbsp;для&nbsp;партнера</d_Attr>
                                           </d_Obj>
@@ -6568,7 +6544,7 @@
                             <d_AttrObj name="IL" oid="-599"/>
                           </d_Obj>
                             <d_Obj oid="132" class="TActiveDynObjectClass" classID="9" classID2="3">
-                              <d_Attr name="Name">Рецепт_манипуляция</d_Attr>
+                              <d_Attr name="Name">Recipe_Manipulation</d_Attr>
                               <d_Attr name="OM">0x00000004</d_Attr>
                               <d_Attr name="Stereotype">HCGO&&P</d_Attr>
                               <d_AttrObj name="IL" oid="-893"/>
@@ -6589,7 +6565,7 @@
                                 <d_Ref oid="1359"/>
                               </d_Obj>
                                 <d_Obj oid="128" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Действовать</d_Attr>
+                                  <d_Attr name="Name">Act</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-606"/>
@@ -6604,8 +6580,8 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="452" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Что_сделать</d_Attr>
-                                      <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                                      <d_Attr name="Name">WhatToDo</d_Attr>
+                                      <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-1755"/>
                                       <d_AttrRef name="SI" oid="128"/>
@@ -6614,7 +6590,7 @@
                                         <d_Attr name="VT" valueI="12">string</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="1170" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Кому</d_Attr>
+                                      <d_Attr name="Name">Who</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-10164"/>
@@ -7318,7 +7294,7 @@
                             <d_AttrObj name="IL" oid="-1613"/>
                           </d_Obj>
                             <d_Obj oid="342" class="TActiveDynObjectClass" classID="9" classID2="3">
-                              <d_Attr name="Name">Рецепт_помощь</d_Attr>
+                              <d_Attr name="Name">Recipe_Help</d_Attr>
                               <d_Attr name="OM">0x00000004</d_Attr>
                               <d_Attr name="Stereotype">HCGO&&P</d_Attr>
                               <d_AttrObj name="IL" oid="-2040"/>
@@ -7350,7 +7326,7 @@
                                 <d_Ref oid="1350"/>
                               </d_Obj>
                                 <d_Obj oid="382" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_обнаружить</d_Attr>
+                                  <d_Attr name="Name">Find</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-1921"/>
@@ -7364,7 +7340,7 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="540" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Что</d_Attr>
+                                      <d_Attr name="Name">What</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-817"/>
@@ -7374,7 +7350,7 @@
                                         <d_Attr name="VT" valueI="12">string</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="383" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_приближение</d_Attr>
+                                  <d_Attr name="Name">Approaching</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-1879"/>
@@ -7390,8 +7366,8 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="406" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">К_чему</d_Attr>
-                                      <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                                      <d_Attr name="Name">ToWhat</d_Attr>
+                                      <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-1837"/>
                                       <d_AttrRef name="SI" oid="383"/>
@@ -7400,7 +7376,7 @@
                                         <d_Attr name="VT" valueI="12">string</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="622" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_X</d_Attr>
+                                      <d_Attr name="Name">X</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-6035"/>
@@ -7411,7 +7387,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="623" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_Y</d_Attr>
+                                      <d_Attr name="Name">Y</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-6034"/>
@@ -7422,7 +7398,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="384" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_манипуляция</d_Attr>
+                                  <d_Attr name="Name">Manipulation</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-1838"/>
@@ -7437,8 +7413,8 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="457" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Что_сделать</d_Attr>
-                                      <d_Attr name="Stereotype">&&&&&&&</d_Attr>
+                                      <d_Attr name="Name">Action</d_Attr>
+                                      <d_Attr name="Stereotype">&&&nbsp;&&&&</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-1592"/>
                                       <d_AttrRef name="SI" oid="384"/>
@@ -7447,7 +7423,7 @@
                                         <d_Attr name="VT" valueI="12">string</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="1175" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Кому</d_Attr>
+                                      <d_Attr name="Name">WithWhat</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                       <d_AttrRef name="Value" oid="-10973"/>
@@ -7457,7 +7433,7 @@
                                         <d_Attr name="VT" valueI="12">string</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="385" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_помощь</d_Attr>
+                                  <d_Attr name="Name">Help</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&&&P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-1733"/>
@@ -7472,7 +7448,7 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="672" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_X</d_Attr>
+                                      <d_Attr name="Name">X</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-2557"/>
@@ -7483,7 +7459,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="673" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_Y</d_Attr>
+                                      <d_Attr name="Name">Y</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-2556"/>
@@ -7494,7 +7470,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="616" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Координаты_цели</d_Attr>
+                                  <d_Attr name="Name">TargetCoordinates</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-6575"/>
@@ -7509,7 +7485,7 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="617" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_X</d_Attr>
+                                      <d_Attr name="Name">X</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-6577"/>
@@ -7520,7 +7496,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="618" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Координата_Y</d_Attr>
+                                      <d_Attr name="Name">Y</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-6576"/>
@@ -7531,7 +7507,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="770" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Положение_X</d_Attr>
+                                  <d_Attr name="Name">X</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-9698"/>
@@ -7543,7 +7519,7 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="769" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Положение_Y</d_Attr>
+                                  <d_Attr name="Name">Y</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-8923"/>
@@ -7555,7 +7531,7 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="116" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Конец_действия</d_Attr>
+                                  <d_Attr name="Name">EndOfAction</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-4504"/>
@@ -7566,7 +7542,7 @@
                                     <d_Attr name="VT" valueI="17">signal</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="976" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Просьба_выполнена</d_Attr>
+                                  <d_Attr name="Name">RequestIsDone</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-10263"/>
@@ -7580,7 +7556,7 @@
                                     </d_Attr>
                                   </d_Obj>
                                     <d_Obj oid="971" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Количество_пищи</d_Attr>
+                                      <d_Attr name="Name">FoodAmount</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-10264"/>
@@ -7591,7 +7567,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="1093" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Передать_энергию</d_Attr>
+                                  <d_Attr name="Name">TransferEnergy</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-11530"/>
@@ -7629,7 +7605,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                     <d_Obj oid="955" class="TSParam" classID="9" classID2="25">
-                                      <d_Attr name="Name">Количество</d_Attr>
+                                      <d_Attr name="Name">Amount</d_Attr>
                                       <d_Attr name="Stereotype">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
                                       <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                       <d_AttrRef name="Value" oid="-11531"/>
@@ -7640,7 +7616,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="1223" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Р_Помощь_Сам</d_Attr>
+                                  <d_Attr name="Name">HelpYourself</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-9513"/>
@@ -7676,7 +7652,7 @@
                                         <d_Attr name="S">0</d_Attr>
                                       </d_Obj>
                                 <d_Obj oid="1172" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Состояние_Р_помощь</d_Attr>
+                                  <d_Attr name="Name">HelpState</d_Attr>
                                   <d_Attr name="Stereotype">AO&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="12">string</d_Attr>
                                   <d_AttrRef name="Value" oid="-9814"/>
@@ -7686,7 +7662,7 @@
                                     <d_Attr name="VT" valueI="12">string</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="1350" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Координаты_получены</d_Attr>
+                                  <d_Attr name="Name">CoordinatesIsRecieved</d_Attr>
                                   <d_Attr name="Stereotype">AI&nbsp;&nbsp;&nbsp;&nbsp;P</d_Attr>
                                   <d_Attr name="ExpType" valueI="17">signal</d_Attr>
                                   <d_AttrRef name="VTdef" oid="-5863"/>
@@ -7732,8 +7708,8 @@
                                 <d_Ref oid="951"/>
                               </d_Obj>
                                 <d_Obj oid="274" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Цель_X</d_Attr>
-                                  <d_Attr name="Stereotype">AV&&&&R</d_Attr>
+                                  <d_Attr name="Name">targetY</d_Attr>
+                                  <d_Attr name="Stereotype">AV&nbsp;&&&R</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-1944"/>
                                 </d_Obj>
@@ -7742,8 +7718,8 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="273" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Цель_Y</d_Attr>
-                                  <d_Attr name="Stereotype">AV&&&&R</d_Attr>
+                                  <d_Attr name="Name">targetX</d_Attr>
+                                  <d_Attr name="Stereotype">AV&nbsp;&&&R</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-1943"/>
                                 </d_Obj>
@@ -7752,8 +7728,8 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="449" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Партнер_X</d_Attr>
-                                  <d_Attr name="Stereotype">AV&&&&R</d_Attr>
+                                  <d_Attr name="Name">partnerX</d_Attr>
+                                  <d_Attr name="Stereotype">AV&nbsp;&&&R</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-1961"/>
                                 </d_Obj>
@@ -7762,8 +7738,8 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="446" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Партнер_Y</d_Attr>
-                                  <d_Attr name="Stereotype">AV&&&&R</d_Attr>
+                                  <d_Attr name="Name">partnerY</d_Attr>
+                                  <d_Attr name="Stereotype">AV&nbsp;&&&R</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-1840"/>
                                 </d_Obj>
@@ -7772,7 +7748,7 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="958" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Количество_пищи</d_Attr>
+                                  <d_Attr name="Name">foodAmount</d_Attr>
                                   <d_Attr name="Stereotype">AV&nbsp;&nbsp;&nbsp;&nbsp;R</d_Attr>
                                   <d_Attr name="ExpType" valueI="4">double</d_Attr>
                                   <d_AttrRef name="Value" oid="-9554"/>
@@ -7782,7 +7758,7 @@
                                     <d_Attr name="S">0</d_Attr>
                                   </d_Obj>
                                 <d_Obj oid="951" class="TVariable" classID="9" classID2="15">
-                                  <d_Attr name="Name">Помощь_выполнена</d_Attr>
+                                  <d_Attr name="Name">isHelpComleted</d_Attr>
                                   <d_Attr name="Stereotype">AV&nbsp;&nbsp;&nbsp;&nbsp;R</d_Attr>
                                   <d_Attr name="ExpType" valueI="9">bool</d_Attr>
                                   <d_AttrRef name="Value" oid="-10765"/>
@@ -11994,7 +11970,6 @@
                         <d_Obj oid="-340" class="d_List" classID="7">
                           <d_Ref oid="152"/>
                           <d_Ref oid="111"/>
-                          <d_Ref oid="320"/>
                           <d_Ref oid="389"/>
                           <d_Ref oid="390"/>
                           <d_Ref oid="177"/>
@@ -12071,21 +12046,6 @@
                                 <point x="548" y="190"/>
                                 <point x="650" y="190"/>
                                 <point x="650" y="58"/>
-                            </d_Obj>
-                          <d_Obj oid="320" class="TLink" classID="9" classID2="14">
-                            <d_Attr name="Name">L_70</d_Attr>
-                            <d_Attr name="Stereotype">&&&&&&&</d_Attr>
-                            <d_Attr name="UID">70</d_Attr>
-                            <d_AttrRef name="SD" oid="266"/>
-                            <d_AttrRef name="SC" oid="298"/>
-                            <d_AttrRef name="DC" oid="297"/>
-                            <d_AttrRef name="PPA" oid="-428"/>
-                            <d_Attr name="CondX">888</d_Attr>
-                            <d_Attr name="CondY">160</d_Attr>
-                          </d_Obj>
-                            <d_Obj oid="-428" class="d_Polyline" classID="29">
-                                <point x="888" y="130"/>
-                                <point x="1002" y="130"/>
                             </d_Obj>
                           <d_Obj oid="389" class="TLink" classID="9" classID2="14">
                             <d_Attr name="Name">L_139</d_Attr>

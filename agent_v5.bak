@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="AGENT_V5" build="1153" objcount="1608" litcount="462901" DIM="false">
+<mvBaseX name="AGENT_V5" build="1157" objcount="1608" litcount="462901" DIM="false">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">agent_v5</d_Attr>
@@ -1001,7 +1001,7 @@
   </d_Obj>
   <d_Named name="mvsLastObjectID" oid="13"/>
   <d_Obj oid="13" class="d_Integer" classID="24">
-    <d_Attr name="val">1095</d_Attr>
+    <d_Attr name="val">1097</d_Attr>
   </d_Obj>
   <d_Named name="model" oid="4"/>
   <d_Obj oid="4" class="TDevInst" classID="9" classID2="13">
@@ -6720,7 +6720,6 @@
                                   <d_Ref oid="130"/>
                                   <d_Ref oid="460"/>
                                   <d_Ref oid="463"/>
-                                  <d_Ref oid="466"/>
                                   <d_Ref oid="1166"/>
                                   <d_Ref oid="1163"/>
                                   <d_Ref oid="866"/>
@@ -6850,56 +6849,8 @@
                                       <d_Attr name="Y">150</d_Attr>
                                       <d_Attr name="H">40</d_Attr>
                                       <d_Attr name="W">60</d_Attr>
-                                      <d_Attr name="FN_X">1090</d_Attr>
+                                      <d_Attr name="FN_X">980</d_Attr>
                                       <d_Attr name="FN_Y">90</d_Attr>
-                                    </d_Obj>
-                                  <d_Obj oid="466" class="TBChartNode" classID="9" classID2="32">
-                                    <d_Attr name="Name">Достать</d_Attr>
-                                    <d_Attr name="Stereotype">O&&&</d_Attr>
-                                    <d_Attr name="UID">194</d_Attr>
-                                    <d_Attr name="nameX">3</d_Attr>
-                                    <d_Attr name="nameY">-20</d_Attr>
-                                    <d_AttrObj name="enA" oid="-1559"/>
-                                    <d_AttrObj name="exA" oid="-1558"/>
-                                    <d_AttrObj name="EI" oid="-1557"/>
-                                  </d_Obj>
-                                    <d_Obj oid="-1559" class="d_List" classID="7">
-                                      <d_Ref oid="1154"/>
-                                      <d_Ref oid="1153"/>
-                                    </d_Obj>
-                                      <d_Obj oid="1154" class="TSendStm" classID="9" classID2="52">
-                                        <d_AttrRef name="S" oid="128"/>
-                                        <d_AttrObj name="APL" oid="-9679"/>
-                                      </d_Obj>
-                                        <d_Obj oid="-9679" class="d_List" classID="7">
-                                          <d_Ref oid="-9681"/>
-                                          <d_Ref oid="-9680"/>
-                                        </d_Obj>
-                                          <d_Obj oid="-9681" class="TLiteral" classID="18" classID2="2">
-                                            <d_Attr name="VT" valueI="12">string</d_Attr>
-                                            <d_Attr name="S">Достать</d_Attr>
-                                          </d_Obj>
-                                          <d_Obj oid="-9680" class="TLiteral" classID="18" classID2="2">
-                                            <d_Attr name="VT" valueI="12">string</d_Attr>
-                                            <d_Attr name="S">Помощь</d_Attr>
-                                          </d_Obj>
-                                      <d_Obj oid="1153" class="TAssignStm" classID="9" classID2="42">
-                                        <d_AttrRef name="V" oid="1092"/>
-                                        <d_AttrRef name="E" oid="-9678"/>
-                                      </d_Obj>
-                                        <d_Obj oid="-9678" class="TLiteral" classID="18" classID2="2">
-                                          <d_Attr name="VT" valueI="9">bool</d_Attr>
-                                          <d_Attr name="S">TRUE</d_Attr>
-                                        </d_Obj>
-                                    <d_Obj oid="-1558" class="d_List" classID="7">
-                                    </d_Obj>
-                                    <d_Obj oid="-1557" class="TNodeEdInf" classID="9" classID2="40">
-                                      <d_Attr name="X">700</d_Attr>
-                                      <d_Attr name="Y">350</d_Attr>
-                                      <d_Attr name="H">40</d_Attr>
-                                      <d_Attr name="W">60</d_Attr>
-                                      <d_Attr name="FN_X">780</d_Attr>
-                                      <d_Attr name="FN_Y">390</d_Attr>
                                     </d_Obj>
                                   <d_Obj oid="1166" class="TBChartNode" classID="9" classID2="32">
                                     <d_Attr name="Name">_Switchpoint_559</d_Attr>
@@ -6964,8 +6915,8 @@
                                       <d_Attr name="Y">290</d_Attr>
                                       <d_Attr name="H">40</d_Attr>
                                       <d_Attr name="W">60</d_Attr>
-                                      <d_Attr name="FN_X">1060</d_Attr>
-                                      <d_Attr name="FN_Y">300</d_Attr>
+                                      <d_Attr name="FN_X">840</d_Attr>
+                                      <d_Attr name="FN_Y">220</d_Attr>
                                     </d_Obj>
                                   <d_Obj oid="866" class="TBChartNode" classID="9" classID2="32">
                                     <d_Attr name="Name">Ожидание_доступности_эффектора</d_Attr>
@@ -6991,15 +6942,14 @@
                                     </d_Obj>
                                 <d_Obj oid="-870" class="d_List" classID="7">
                                   <d_Ref oid="129"/>
-                                  <d_Ref oid="467"/>
                                   <d_Ref oid="461"/>
-                                  <d_Ref oid="450"/>
                                   <d_Ref oid="1165"/>
                                   <d_Ref oid="1162"/>
                                   <d_Ref oid="1161"/>
                                   <d_Ref oid="1158"/>
                                   <d_Ref oid="865"/>
                                   <d_Ref oid="837"/>
+                                  <d_Ref oid="1468"/>
                                 </d_Obj>
                                   <d_Obj oid="129" class="TTransition" classID="9" classID2="33">
                                     <d_Attr name="Name">Tran_1</d_Attr>
@@ -7021,29 +6971,6 @@
                                     </d_Obj>
                                       <d_Obj oid="-628" class="d_Polyline" classID="29">
                                           <point x="120" y="170"/>
-                                      </d_Obj>
-                                  <d_Obj oid="467" class="TTransition" classID="9" classID2="33">
-                                    <d_Attr name="Name">_T_195</d_Attr>
-                                    <d_Attr name="Stereotype">SE&&&&&</d_Attr>
-                                    <d_Attr name="UID">195</d_Attr>
-                                    <d_AttrRef name="initN" oid="460"/>
-                                    <d_AttrRef name="finalN" oid="466"/>
-                                    <d_AttrObj name="SPL" oid="-1556"/>
-                                    <d_AttrObj name="A" oid="-1555"/>
-                                    <d_AttrObj name="EI" oid="-1553"/>
-                                  </d_Obj>
-                                    <d_Obj oid="-1556" class="d_List" classID="7">
-                                    </d_Obj>
-                                    <d_Obj oid="-1555" class="d_List" classID="7">
-                                    </d_Obj>
-                                    <d_Obj oid="-1553" class="TTransEdInf" classID="9" classID2="41">
-                                      <d_AttrRef name="PPA" oid="-1552"/>
-                                      <d_Attr name="FN_X">600</d_Attr>
-                                      <d_Attr name="FN_Y">270</d_Attr>
-                                    </d_Obj>
-                                      <d_Obj oid="-1552" class="d_Polyline" classID="29">
-                                          <point x="600" y="260"/>
-                                          <point x="730" y="260"/>
                                       </d_Obj>
                                   <d_Obj oid="461" class="TTransition" classID="9" classID2="33">
                                     <d_Attr name="Name">_T_196</d_Attr>
@@ -7074,51 +7001,13 @@
                                     </d_Obj>
                                     <d_Obj oid="-1996" class="TTransEdInf" classID="9" classID2="41">
                                       <d_AttrRef name="PPA" oid="-1988"/>
-                                      <d_Attr name="FN_X">750</d_Attr>
-                                      <d_Attr name="FN_Y">570</d_Attr>
+                                      <d_Attr name="FN_X">980</d_Attr>
+                                      <d_Attr name="FN_Y">300</d_Attr>
                                     </d_Obj>
                                       <d_Obj oid="-1988" class="d_Polyline" classID="29">
-                                          <point x="1020" y="170"/>
-                                          <point x="1020" y="500"/>
-                                          <point x="150" y="500"/>
-                                          <point x="150" y="240"/>
-                                      </d_Obj>
-                                  <d_Obj oid="450" class="TTransition" classID="9" classID2="33">
-                                    <d_Attr name="Name">_T_197</d_Attr>
-                                    <d_Attr name="Stereotype">OT&&&&&</d_Attr>
-                                    <d_Attr name="UID">197</d_Attr>
-                                    <d_AttrRef name="initN" oid="466"/>
-                                    <d_AttrRef name="finalN" oid="130"/>
-                                    <d_AttrObj name="SPL" oid="-1970"/>
-                                    <d_AttrRef name="CE" oid="-10798"/>
-                                    <d_AttrObj name="A" oid="-1969"/>
-                                    <d_AttrObj name="EI" oid="-1967"/>
-                                  </d_Obj>
-                                    <d_Obj oid="-1970" class="d_List" classID="7">
-                                    </d_Obj>
-                                    <d_Obj oid="-10798" class="TOpResult" classID="18" classID2="1">
-                                      <d_Attr name="OC" val="10" sval="="/>
-                                      <d_AttrObj name="x1" oid="-10800"/>
-                                      <d_AttrObj name="x2" oid="-10799"/>
-                                    </d_Obj>
-                                      <d_Obj oid="-10800" class="TVarRef" classID="18" classID2="3">
-                                        <d_AttrRef name="VR" oid="1092"/>
-                                      </d_Obj>
-                                      <d_Obj oid="-10799" class="TLiteral" classID="18" classID2="2">
-                                        <d_Attr name="VT" valueI="9">bool</d_Attr>
-                                        <d_Attr name="S">true</d_Attr>
-                                      </d_Obj>
-                                    <d_Obj oid="-1969" class="d_List" classID="7">
-                                    </d_Obj>
-                                    <d_Obj oid="-1967" class="TTransEdInf" classID="9" classID2="41">
-                                      <d_AttrRef name="PPA" oid="-1962"/>
-                                      <d_Attr name="FN_X">450</d_Attr>
-                                      <d_Attr name="FN_Y">420</d_Attr>
-                                    </d_Obj>
-                                      <d_Obj oid="-1962" class="d_Polyline" classID="29">
-                                          <point x="730" y="440"/>
-                                          <point x="190" y="440"/>
-                                          <point x="190" y="220"/>
+                                          <point x="970" y="170"/>
+                                          <point x="970" y="450"/>
+                                          <point x="160" y="450"/>
                                       </d_Obj>
                                   <d_Obj oid="1165" class="TTransition" classID="9" classID2="33">
                                     <d_Attr name="Name">_T_560</d_Attr>
@@ -7184,8 +7073,8 @@
                                     </d_Obj>
                                     <d_Obj oid="-10010" class="TTransEdInf" classID="9" classID2="41">
                                       <d_AttrRef name="PPA" oid="-10009"/>
-                                      <d_Attr name="FN_X">860</d_Attr>
-                                      <d_Attr name="FN_Y">110</d_Attr>
+                                      <d_Attr name="FN_X">770</d_Attr>
+                                      <d_Attr name="FN_Y">70</d_Attr>
                                     </d_Obj>
                                       <d_Obj oid="-10009" class="d_Polyline" classID="29">
                                           <point x="780" y="170"/>
@@ -7241,13 +7130,13 @@
                                     </d_Obj>
                                     <d_Obj oid="-9987" class="TTransEdInf" classID="9" classID2="41">
                                       <d_AttrRef name="PPA" oid="-9986"/>
-                                      <d_Attr name="FN_X">1060</d_Attr>
-                                      <d_Attr name="FN_Y">400</d_Attr>
+                                      <d_Attr name="FN_X">770</d_Attr>
+                                      <d_Attr name="FN_Y">370</d_Attr>
                                     </d_Obj>
                                       <d_Obj oid="-9986" class="d_Polyline" classID="29">
-                                          <point x="1010" y="310"/>
-                                          <point x="1010" y="470"/>
-                                          <point x="160" y="470"/>
+                                          <point x="910" y="310"/>
+                                          <point x="910" y="420"/>
+                                          <point x="160" y="420"/>
                                       </d_Obj>
                                   <d_Obj oid="865" class="TTransition" classID="9" classID2="33">
                                     <d_Attr name="Name">_T_658</d_Attr>
@@ -7325,11 +7214,51 @@
                                     </d_Obj>
                                     <d_Obj oid="-4787" class="TTransEdInf" classID="9" classID2="41">
                                       <d_AttrRef name="PPA" oid="-4786"/>
-                                      <d_Attr name="FN_X">330</d_Attr>
-                                      <d_Attr name="FN_Y">260</d_Attr>
+                                      <d_Attr name="FN_X">340</d_Attr>
+                                      <d_Attr name="FN_Y">220</d_Attr>
                                     </d_Obj>
                                       <d_Obj oid="-4786" class="d_Polyline" classID="29">
                                           <point x="460" y="170"/>
+                                      </d_Obj>
+                                  <d_Obj oid="1468" class="TTransition" classID="9" classID2="33">
+                                    <d_Attr name="Name">_T_1097</d_Attr>
+                                    <d_Attr name="Stereotype">SE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</d_Attr>
+                                    <d_Attr name="UID">1097</d_Attr>
+                                    <d_AttrRef name="initN" oid="460"/>
+                                    <d_AttrRef name="finalN" oid="130"/>
+                                    <d_AttrObj name="SPL" oid="-461736"/>
+                                    <d_AttrObj name="A" oid="-461735"/>
+                                    <d_AttrObj name="EI" oid="-461734"/>
+                                  </d_Obj>
+                                    <d_Obj oid="-461736" class="d_List" classID="7">
+                                    </d_Obj>
+                                    <d_Obj oid="-461735" class="d_List" classID="7">
+                                      <d_Ref oid="1466"/>
+                                    </d_Obj>
+                                      <d_Obj oid="1466" class="TSendStm" classID="9" classID2="52">
+                                        <d_AttrRef name="S" oid="128"/>
+                                        <d_AttrObj name="APL" oid="-461730"/>
+                                      </d_Obj>
+                                        <d_Obj oid="-461730" class="d_List" classID="7">
+                                          <d_Ref oid="-461732"/>
+                                          <d_Ref oid="-461731"/>
+                                        </d_Obj>
+                                          <d_Obj oid="-461732" class="TLiteral" classID="18" classID2="2">
+                                            <d_Attr name="VT" valueI="12">string</d_Attr>
+                                            <d_Attr name="S">Достать</d_Attr>
+                                          </d_Obj>
+                                          <d_Obj oid="-461731" class="TLiteral" classID="18" classID2="2">
+                                            <d_Attr name="VT" valueI="12">string</d_Attr>
+                                            <d_Attr name="S">Помощь</d_Attr>
+                                          </d_Obj>
+                                    <d_Obj oid="-461734" class="TTransEdInf" classID="9" classID2="41">
+                                      <d_AttrRef name="PPA" oid="-461733"/>
+                                      <d_Attr name="FN_X">290</d_Attr>
+                                      <d_Attr name="FN_Y">280</d_Attr>
+                                    </d_Obj>
+                                      <d_Obj oid="-461733" class="d_Polyline" classID="29">
+                                          <point x="600" y="340"/>
+                                          <point x="160" y="340"/>
                                       </d_Obj>
                                 <d_Obj oid="-869" class="TPosition" classID="9" classID2="39">
                                 </d_Obj>
@@ -19419,8 +19348,8 @@
                               <d_Attr name="Y">270</d_Attr>
                               <d_Attr name="H">40</d_Attr>
                               <d_Attr name="W">60</d_Attr>
-                              <d_Attr name="FN_X">730</d_Attr>
-                              <d_Attr name="FN_Y">210</d_Attr>
+                              <d_Attr name="FN_X">760</d_Attr>
+                              <d_Attr name="FN_Y">200</d_Attr>
                             </d_Obj>
                         <d_Obj oid="-120" class="d_List" classID="7">
                           <d_Ref oid="33"/>
